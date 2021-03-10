@@ -1,0 +1,111 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  position: relative;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+.form-area {
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 1px -1px 5px -1px #3041af94;
+  width: 400px;
+}
+.form-area .form-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.form-area .form-group {
+  margin: 10px 20px;
+}
+.form-area .form-control {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 1px -1px 5px -1px #3344b4a4;
+  border-radius: 10px;
+}
+.form-area .form-control:focus {
+  box-shadow: 1px -1px 5px -1px #3344b4ec;
+}
+.form-area .btn {
+  padding: 10px 20px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  background: #3344b4a4;
+  color: white;
+  text-transform: uppercase;
+  width: 50%;
+  transform: translateX(50%);
+  position: relative;
+}
+.form-area .btn img {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  transition: all 0.4s;
+}
+.form-area .btn:hover {
+  font-weight: bold;
+}
+.form-area .btn:hover img {
+  opacity: 0.9;
+}
+.form-area .checkbox {
+  float: left;
+}
+.form-area label, .form-area a {
+  font-size: 15px;
+  font-weight: lighter;
+  font-style: italic;
+  opacity: 0.6;
+}
+.form-area a {
+  text-decoration: none;
+}
+.form-area .password-forget {
+  margin-left: auto;
+  float: right;
+}
+.form-area footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+  text-align: center;
+  font-style: oblique;
+  opacity: 0.6;
+}
+.form-area footer a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+.form-area footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
